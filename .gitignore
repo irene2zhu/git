@@ -1,0 +1,50 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Editor and IDE local files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# Dependencies
+node_modules/
+vendor/
+
+# Build outputs
+dist/
+build/
+out/
+target/
+
+# Logs
+*.log
+logs/
+
+# Environment and local secrets
+.env
+.env.*
+!.env.example
+
+# Caches and temporary files
+.cache/
+.tmp/
+tmp/
+temp/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
